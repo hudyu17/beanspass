@@ -138,14 +138,14 @@ h1 {
 
 .cta.email { background: #fff }
 .cta input[type="submit"] {
-  background: #115B87;
+  background: #FFFF00;
   color: #fff;
   cursor: pointer;
   font-size: 15px;
   width: 35%;
   padding: 8px 0;
 }
-.cta button[type="submit"]:hover { color: #F2C94C }
+.cta button[type="submit"]:hover { color: #FFFF00 }
 
 .footer {
   display: grid;
