@@ -228,6 +228,7 @@ a {
   .content-wrapper .text .body {
     max-width: 630px;
     padding: 0;
+    margin: 0;
   }
 
   .cta {
