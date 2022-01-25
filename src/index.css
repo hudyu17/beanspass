@@ -45,9 +45,9 @@ code {
 }
 
 .tagline {
-  margin: 0 20px 2em;
+  margin: 0 30px 2em;
   font-weight: 700;
-  /* max-width: 90%; */
+  max-width: 90%;
   font-size: 2.4em;
 }
 
