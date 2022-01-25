@@ -5,7 +5,7 @@ import MailchimpSubscribe from 'react-mailchimp-subscribe';
 import { FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
 import { ReactComponent as Logo } from '../logo-v7.svg';
 
-const mailchimp = process.env.REACT_APP_MAILCHIMP;
+const mailchimp = 'https://gmail.us20.list-manage.com/subscribe/post?u=ee86290eba4a80851f0819174&amp;id=b5b7a5a77d'
 
 function Home() {
     return (
