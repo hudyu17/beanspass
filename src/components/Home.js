@@ -45,9 +45,9 @@ function Home() {
                     target="_blank" 
                     rel="noreferrer">Got questions?
                 </a></p>
-                <a href="https://www.tiktok.com/@beanspass" target="_blank" rel="noreferrer"><FaInstagram class="icon"/></a>   
+                <a href="https://www.instagram.com/beanspass/" target="_blank" rel="noreferrer"><FaInstagram class="icon"/></a>   
                 <a href="https://www.tiktok.com/@beanspass" target="_blank" rel="noreferrer"><FaTiktok class="icon"/></a>   
-                <a href="https://www.tiktok.com/@beanspass" target="_blank" rel="noreferrer"><FaYoutube class="icon"/></a>  
+                <a href="https://www.youtube.com/channel/UC-9EPlcxjqynwX1WlZVDZlA" target="_blank" rel="noreferrer"><FaYoutube class="icon"/></a>  
                 </div>
             </div>
             </div>
