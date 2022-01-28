@@ -31,8 +31,16 @@ code {
 .icon {
   grid-area: icon;
   margin: 1em auto 1.5em;
-  max-width: 60px;
+  max-width: 40px;
 }
+
+.logo {
+  grid-area: icon;
+  margin: 1em auto 1.5em;
+  max-width: 50px;
+  border-radius: 30%;
+}
+
 
 .header {
   font-size: 2.8em;
@@ -115,6 +123,7 @@ code {
   -webkit-border-radius: 0 7px 7px 0;
   font-family: 'Barlow', sans-serif;
   background: #d3d3d3;
+  color: #010912;
 }
 
 .cta button:hover, .highlight {
@@ -161,6 +170,11 @@ h1 {
 
 .footer .copyright p {
   font-size: 0.9em;
+}
+
+.footer .copyright img {
+  margin-top: 15px;
+  width: 150px;
 }
 
 .footer .nav {

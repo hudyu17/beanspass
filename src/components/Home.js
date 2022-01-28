@@ -11,7 +11,9 @@ function Home() {
     return (
         <div class="wrapper">
             {/* <img src="cup-white.png" class="icon"/> */}
-            <Logo class='icon'/>
+            {/* <Logo class='icon'/> */}
+            <img src="cup-logo.png" class="icon"/>
+            {/* <img src="logo-5-12.png" class="logo"/> */}
             <h1 class="header">Want unlimited coffee?</h1>
             <img src="iphone-app.png" class="hero" alt='app-img'/>
             <div class="tagline">One subscription. All your favourite coffee shops.</div>
@@ -34,22 +36,23 @@ function Home() {
             </div>
             <hr/>
             <div class="footer">
-            <div class="copyright">
-                <h2><span class="highlight">BeansPass</span></h2>
-                <p>© 2022 Copyright BeansPass. All Rights Reserved.</p>
-            </div>
-            <div class="nav">
-                <div class="socials">
-                <p><a 
-                    href="https://flicker-acoustic-526.notion.site/What-is-beans-pass-88034edddac74408a23ded871419589d" 
-                    target="_blank" 
-                    rel="noreferrer">Got questions?
-                </a></p>
-                <a href="https://www.instagram.com/beanspass/" target="_blank" rel="noreferrer"><FaInstagram class="icon"/></a>   
-                <a href="https://www.tiktok.com/@beanspass" target="_blank" rel="noreferrer"><FaTiktok class="icon"/></a>   
-                <a href="https://www.youtube.com/channel/UC-9EPlcxjqynwX1WlZVDZlA" target="_blank" rel="noreferrer"><FaYoutube class="icon"/></a>  
+                <div class="copyright">
+                    {/* <h2><span class="highlight">BeansPass</span></h2> */}
+                    <img class="long-tag" src='long-tag.png'/>
+                    <p>© 2022 Copyright BeansPass. All Rights Reserved.</p>
                 </div>
-            </div>
+                <div class="nav">
+                    <div class="socials">
+                    <p><a 
+                        href="https://flicker-acoustic-526.notion.site/What-is-beans-pass-88034edddac74408a23ded871419589d" 
+                        target="_blank" 
+                        rel="noreferrer">Got questions?
+                    </a></p>
+                    <a href="https://www.instagram.com/beanspass/" target="_blank" rel="noreferrer"><FaInstagram class="icon"/></a>   
+                    <a href="https://www.tiktok.com/@beanspass" target="_blank" rel="noreferrer"><FaTiktok class="icon"/></a>   
+                    <a href="https://www.youtube.com/channel/UC-9EPlcxjqynwX1WlZVDZlA" target="_blank" rel="noreferrer"><FaYoutube class="icon"/></a>  
+                    </div>
+                </div>
             </div>
         </div>
     )
