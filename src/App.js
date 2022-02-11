@@ -1,7 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Link, Routes} from "react-router-dom";
+
 import ReactGA from 'react-ga4';
 import Home from './components/Home';
+import Stores from './components/Stores';
 
 function initializeReactGA() {
   ReactGA.initialize('G-2R889R50LZ');
@@ -11,9 +13,12 @@ function initializeReactGA() {
 function App() {
   initializeReactGA();
   return (
-      <div>
-        <Home/>
-      </div> 
+    <Router>
+      <Routes>
+        <Route exact path="/" element = {<Home/>}/>
+        <Route exact path="business" element = {<Stores/>}/>
+      </Routes>
+    </Router>
   );
 }
 

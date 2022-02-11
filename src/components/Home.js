@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import '../App.css';
 import '../index.css';
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
@@ -30,9 +31,10 @@ function Home() {
                 </div>
             </div>
             <div class="cta">
-            <div class="tagline">Sign up for early access</div>
-            <p>You'll be the first to know when we launch</p>
-            <MailchimpSubscribe url={mailchimp}/>
+                <div class="tagline">Sign up for early access</div>
+                <p>You'll be the first to know when we launch</p>
+                <MailchimpSubscribe url={mailchimp}/>
+                <Link to="/business">Have your own coffee shop?</Link>
             </div>
             <hr/>
             <div class="footer">
